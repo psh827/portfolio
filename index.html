@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>portofolio</title>
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+        <h1>
+          <a href="#"> JS </a>
+        </h1>
+        <div class="name">박상훈</div>
+        <nav id="gnb">
+          <ul>
+            <li><a href="#">My skills</a></li>
+            <li><a href="./project.html">Project</a></li>
+            <!-- <li><a href="#">Sponsorhips</a></li>
+            <li><a href="#">Our products</a></li> -->
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section>
+          <!-- 작은 섬네일 이미지 -->
+          <nav id="pagenation">
+            <ul>
+              <li class="active">
+                <img src="./img/kokoa.png" alt="img01" title="Kakao" />
+              </li>
+              <li>
+                <img src="./img/insta.png" alt="img02" title="Instagram" />
+              </li>
+              <li>
+                <img src="./img/momentum.png" alt="img03" title="momentum" />
+              </li>
+              <li>
+                <img src="./img/ministry.png" alt="img04" title="Ministry" />
+              </li>
+            </ul>
+          </nav>
+          <!-- 큰 이미지 노출 영역 -->
+          <div class="items change-img">
+            <img src="./img/kokoa.png" />
+          </div>
+          <div class="items text">
+            <h2>The Original</h2>
+            <div class="desc-title">Kako Talk</div>
+            <p class="desc_text">
+              Clone-Coding <br />
+              HTML,CSS를 이용해서 kakao-talk클론코딩<br />추후 javascript,
+              nodejs를 이용해 채팅프로그램까지 연동시켜 볼 생각입니다.
+            </p>
+            <div class="title">Skills</div>
+            <ul class="desc">
+              <li>
+                <p>HTML5</p>
+              </li>
+              <li>
+                <p>CSS</p>
+              </li>
+            </ul>
+            <a href="#" class="btn">View Website</a>
+            <!-- <p class="desc">
+              Always refreshing to see something you recognise. Cold, fresh,
+              high quality Heineken®. Enjoyed near and far since 1873.
+            </p> -->
+          </div>
+          <!-- 회전하는 텍스트 -->
+          <div class="rotate-items">
+            <ul>
+              <li style="--i: 1"><span>고용노동부</span></li>
+              <li style="--i: 2"><span>momentum</span></li>
+              <li style="--i: 3"><span>Instagram</span></li>
+              <li style="--i: 4"><span>Kakao Talk</span></li>
+            </ul>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="./js/common.js"></script>
+  </body>
+</html>
