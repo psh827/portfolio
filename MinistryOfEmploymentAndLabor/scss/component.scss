@@ -1,0 +1,76 @@
+.main-area-common {
+    max-width: $width;
+    margin: 0 auto;
+    transition: all ease-in;
+    position: relative;
+    min-width: 1172px;
+}
+.font-bold {
+    color: #063863 !important;
+}
+.more-btn {
+    position: absolute;
+    top: -12px;
+    right: 0;
+    height: 40px;
+    padding-right: 20px;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: -0.5px;
+    text-align: right;
+    color: #063863;
+    &:hover {
+      text-decoration: underline;
+    }
+    & {
+      top: -10px;
+    }
+    .more-btn-text::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 12px;
+      height: 40px;
+      background: url(../img/btn/btn_more.png) no-repeat 100% 50%;
+    }
+  }
+  .card-video__mark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0.5) url(../img/logo/icon_video.png)
+      no-repeat 50% 50% / 22px 30px;
+  }
+  .notice-title {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    color: #063863;
+  }
+  .main-card__text {
+    overflow: hidden;
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    color: #333;
+    line-height: 1.4;
+    text-overflow: ellipsis;
+    word-break: break-word;
+  }
+  .main-card__date {
+    margin-top: 10px;
+    color: #666;
+    line-height: 1;
+  }
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+          content: "";
+  }
