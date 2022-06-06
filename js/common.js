@@ -2,7 +2,7 @@
 const descArr = [];
 descArr[0] = {
   desc: "<p>Clone-Coding <br> HTML,CSS를 이용해서 kakao-talk클론코딩<br>추후 javascript, nodejs를 이용해 채팅프로그램까지 연동시켜 볼 생각입니다.</p> ",
-  skillList: "<li><p>HTML5</p></li><li><p>CSS</p></li><li><p>Jquery</p></li>",
+  skillList: "<li><p>HTML5</p></li><li><p>CSS</p></li>",
 };
 descArr[1] = {
   desc: "<p>Clone-Coding <br> HTML,CSS,Jquery를 이용해서 메인베너 슬라이드, 로그인, 동적Pagenation생성, 댓글달기, 지우기등의 기능을 구현해 보았음. 추 후 검색창 연관검색어 자동검색을 구현해 볼 예정입니다.",
